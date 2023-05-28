@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+
+
+<div class="posi">
+<form action="/dil/cv/pf/plus/cv1" method="post">
+  <fieldset>
+    <legend>CONTACT</legend>
+    <div class="form-group row">
+      <label for="staticEmail" class="col-sm-2 col-form-label"></label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label mt-4">Addresse Mail</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre mail" required>
+      <small id="emailHelp" class="form-text text-muted">Votre mail sera strictement confidentiel.</small>
+    </div>
+     <div class="form-group">
+      <label for=""name" class="form-label mt-4">Nom</label>
+      <input type="text" class="form-control" id="Nom" placeholder="Entrez votre nom" required>
+    </div>
+    <div class="form-group">
+      <label for=""name" class="form-label mt-4">Prénom</label>
+      <input type="text" class="form-control" id="prenom" placeholder=" Entrez votre prénom" required>
+    </div>
+    <div class="form-group">
+      <label for=""name" class="form-label mt-4">Entreprise</label>
+      <input type="text" class="form-control" id="Entreprise" placeholder="De quelle entreprise etes vous ?" required>
+    </div>
+    <div class="form-group">
+      <label for="exampleTextarea" class="form-label mt-4">Message</label>
+      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Soumettre</button>
+  </fieldset>
+<div
+{% endblock %}

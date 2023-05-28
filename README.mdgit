@@ -1,0 +1,1 @@
+"# Sae14"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/AndDilan/Sae14.gitgit push -u origin main
